@@ -1,5 +1,5 @@
 # <img src="https://user-images.githubusercontent.com/106452876/214559667-c9869f59-7e5b-42aa-8f77-06e45687edc1.png" width="30"/> Projeto All For One
-Para praticarmos as queries de SQL nos foi proposto 27 desafios para colocarmos em prática tudo o que aprendemos.
+Para praticarmos as queries de SQL que aprendemos nos foi proposto 27 desafios.
 
 * Os oito primeiros desafios foram para o SELECT e criar dados;
 * Os desafios de 9 a 19 foram para filtrar dados;
