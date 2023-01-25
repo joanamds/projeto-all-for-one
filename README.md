@@ -1,13 +1,45 @@
-# :construction: README customizado em construção ! :construction:
-<!-- Olá, Tryber!
-Esse é apenas um arquivo inicial para o README do seu projeto no qual você pode customizar e reutilizar todas as vezes que for executar o trybe-publisher.
+# <img src="https://user-images.githubusercontent.com/106452876/214559667-c9869f59-7e5b-42aa-8f77-06e45687edc1.png" width="30"/> Projeto All For One
+Para praticarmos as queries de SQL nos foi proposto 27 desafios para colocarmos em prática tudo o que aprendemos.
+* Os oito primeiros desafios foram para o SELECT e criar dados;
+* Os desafios de 9 a 19 foram para filtrar dados;
+* E os desafios de 20 a 27 foram para manipular tabelas.
 
-Para deixá-lo com a sua cara, basta alterar o seguinte arquivo da sua máquina: ~/.student-repo-publisher/custom/_NEW_README.md
+## Tecnologias usadas
+Back-end:
+> Desenvolvido usando: Docker, docker-compose, SQL, MySQL Workbench
 
-É essencial que você preencha esse documento por conta própria, ok?
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
-:warning: IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
--->
+## Instalando Dependências
+### Com Docker
+> Backend
+
+* Primeiro instale os containers: 
+```bash
+docker-compose up -d
+``` 
+
+* Em seguida abra o terminal interativo do container: 
+```bash
+docker exec -it all_for_one bash
+``` 
+
+* Instale as dependências dentro do container: 
+```bash
+npm install
+``` 
+> Testes
+
+* Dentro do terminal do container:
+```bash
+npm test
+``` 
+
+:warning: Atenção: O git dentro do container não vem configurado com suas credenciais;
+
+### Sem Docker
+
+* Instale as dependências [Caso existam]
+```bash
+npm install
+``` 
+
+:information_source: Para rodar o projeto desta forma, obrigatoriamente você deve ter o ```node``` instalado em seu computador e o avaliador espera que seja a versão 16.
